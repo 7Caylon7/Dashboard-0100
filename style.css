@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 0.88rem;
+    background-color: #ffff;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+
+.container{
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    background: #ffff;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+a{
+    color: #000;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 0.87rem;
+}
+
+h4{
+    font-size: 0.8rem;
+}
+
+h5{
+    font-size: 0.77rem;
+}
+
+small{
+    font-size: 0.75rem;
+}
+
+.profile-photo{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+aside{
+    height: 100vh;
+    background: #999;
+}
+
+aside .top{
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
+aside .logo{
+    display: flex;
+}
+
+aside .logo img{
+    margin: 0px 5px;
+    width: 2.5rem;
+    height: 2.5rem;
+}
